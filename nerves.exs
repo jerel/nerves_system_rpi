@@ -10,6 +10,7 @@ config :nerves_system_rpi, :nerves_env,
   version: version,
   mirrors: [
     "https://github.com/jerel/nerves_system_rpi/releases/download/v#{version}/nerves_system_rpi.tar.gz",
+  ],
   build_platform: Nerves.System.Platforms.BR,
   build_config: [
     defconfig: "nerves_defconfig",
